@@ -1,0 +1,23 @@
+{
+  "name": "express-azure-application-insights",
+  "version": "1.0.0",
+  "description": "Shows how to use Azure Application Insights with a project with Express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alejoxpi/node-express-azure-application-insights.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alejoxpi/node-express-azure-application-insights/issues"
+  },
+  "homepage": "https://github.com/alejoxpi/node-express-azure-application-insights#readme",
+  "dependencies": {
+    "applicationinsights": "^2.3.4",
+    "express": "^4.18.1"
+  }
+}
