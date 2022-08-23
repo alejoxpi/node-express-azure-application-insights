@@ -6,7 +6,7 @@ const port = 3000
 let start = Date.now();
 let appInsights = require('applicationinsights');
 const { ExceptionData } = require('applicationinsights/out/Declarations/Contracts');
-appInsights.setup('InstrumentationKey=cca25d53-c099-415b-a994-efb6faa5bd94;IngestionEndpoint=https://eastus2-3.in.applicationinsights.azure.com/;LiveEndpoint=https://eastus2.livediagnostics.monitor.azure.com/');
+appInsights.setup('InstrumentationKey=cca25d53-c099-415b-a994;IngestionEndpoint=https://eastus2-3.in.applicationinsights.azure.com/;LiveEndpoint=https://eastus2.livediagnostics.monitor.azure.com/');
 appInsights.defaultClient.config.samplingPercentage = 100; // 100% of all telemetry will be sent to Application Insights
 appInsights.start();
 
